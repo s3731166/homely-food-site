@@ -25,23 +25,34 @@ ul {
   }
   
   li a:hover {
-    background-color: #111;
+    background-color: #7e191b;
+    color: #151515;
   }
 
-  li a:active {
-    background-color: grey;
-  }
   li:last-child {
     border-right: none;
-    background-color: white;
+    background-color: grey;
+    color: #151515;
   }
 
 
+  a:active {
+    background-color: grey;
+  }
   .title-text{
       background-color: #0080ff;
       color: #151515;
+      padding: 1em;
   }
   .title-text h1{
       background-color: skyblue;
       padding: 1em;
+  }
+  #slideshow img{
+    height: 100%;
+    display: none;
+
+  }
+  #slideshow img:first-child{
+    display: block;
   }
