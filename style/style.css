@@ -1,58 +1,83 @@
-body{
-    background-color : #7e191b;
+html,
+body {
+  height: 100%;
+}
+nav {
+  top: 0;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  margin-bottom: 2em;
+  z-index: 1;
+  display: block;
 }
 
 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #151515;
+  color: darkcyan;
+}
 
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #151515;
-    color: darkcyan;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #7e191b;
-    color: #151515;
-  }
+li {
+  float: left;
+}
 
-  li:last-child {
-    border-right: none;
-    background-color: grey;
-    color: #151515;
-  }
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
+li a:hover {
+  background-color: #7e191b;
+  color: #151515;
+}
 
-  a:active {
-    background-color: grey;
-  }
-  .title-text{
-      background-color: #0080ff;
-      color: #151515;
-      padding: 1em;
-  }
-  .title-text h1{
-      background-color: skyblue;
-      padding: 1em;
-  }
-  #slideshow img{
-    height: 100%;
-    display: none;
+li:last-child {
+  border-right: none;
+  background-color: grey;
+  color: #151515;
+}
 
-  }
-  #slideshow img:first-child{
-    display: block;
-  }
+a:active {
+  background-color: grey;
+}
+
+.title-text {
+  /* background-color: #0080ff; */
+  color: #151515;
+  padding: 1em;
+}
+.title-text h1 {
+  background-color: antiquewhite;
+  opacity: .9;
+  padding: 1em;
+  margin-top: 1em;
+  width: auto;
+}
+
+.bg {
+  background-image: url("../img/bkg.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer {
+  background-color: #151515;
+  bottom: 0;
+  position: relative;
+  width: 100%;
+  color: antiquewhite;
+}
+.text-block{
+  color: #151515;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: .3em;
+
+}
