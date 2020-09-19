@@ -55,7 +55,7 @@ a:active {
 }
 .title-text h1 {
   background-color: antiquewhite;
-  opacity: .9;
+  opacity: 0.9;
   padding: 1em;
   margin-top: 1em;
   width: auto;
@@ -75,9 +75,29 @@ footer {
   width: 100%;
   color: antiquewhite;
 }
-.text-block{
+.text-block {
   color: #151515;
   background-color: rgba(255, 255, 255, 0.7);
-  padding: .3em;
+  padding: 0.3em;
+}
 
+.cuisine-tags {
+  text-align: center;
+  display: inline-block;
+  background-color: rgba(255, 0, 0, 0.7);
+  border-radius: 0.7em;
+  width: auto;
+  padding: 0.7em;
+}
+.cuisine-item {
+  display: inline-block;
+}
+
+.cuisine-item img {
+  height: 100px;
+  border-radius: 0.7em;
+  border: burlywood;
+  border-style: solid;
+  border-width: 5px;
+  margin: 0.7em;
 }
