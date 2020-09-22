@@ -136,3 +136,44 @@ footer {
 #myUL li a:hover:not(.header) {
   background-color: #eee; /* Add a hover effect to all links, except for headers */
 }
+/* END STOLEN STYLINGs */
+
+.menu-content{
+  display: block;
+  text-align: center;
+  
+}
+.left-buttons{
+
+ height: 80%;
+  width: 10%;
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-top: 3em;
+  /* padding: 3em; */
+}
+.left-buttons button{
+  background-color: #7e191b;
+  padding: 1em;
+  width: 70%;
+
+}
+.menu-item{
+  display: inline;
+}
+.menu-item{
+  display: inline-block;
+  width: 70%;
+  right: 0;
+}
+.food-items{
+  display: inline-block;
+}
+.item{
+  display: inline-block;
+}
