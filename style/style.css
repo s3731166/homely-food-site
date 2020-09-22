@@ -63,10 +63,13 @@ a:active {
 
 .bg {
   background-image: url("../img/bkg.jpg");
-  height: 100%;
+  height: auto;
+  min-height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+
 }
 footer {
   background-color: #151515;
@@ -176,4 +179,17 @@ footer {
 }
 .item{
   display: inline-block;
+}
+.arrangement{
+  text-align: center;
+}
+.col4{
+  width: 20%;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 60%;
+  padding: 1em;
+  border-radius: .7em;
+
+
 }
