@@ -165,7 +165,8 @@ footer {
   color: rgba(255, 255, 255, 0.7);
   padding: 1em;
   width: 70%;
-
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .menu-item{
   display: inline;
