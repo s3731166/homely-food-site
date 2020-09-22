@@ -161,7 +161,8 @@ footer {
   /* padding: 3em; */
 }
 .left-buttons button{
-  background-color: #7e191b;
+  background-color: rgba(211, 66, 211, 0.548);
+  color: rgba(255, 255, 255, 0.7);
   padding: 1em;
   width: 70%;
 
