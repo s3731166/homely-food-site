@@ -179,6 +179,12 @@ footer {
 .menu-item img{
   height: 200px
 }
+.menu-item h2{
+  color: purple;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+}
 .food-items{
   display: inline-block;
 }
