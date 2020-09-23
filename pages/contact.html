@@ -21,6 +21,29 @@
         </ul>
        
     </nav>
-    
+    <main>
+    <section id="contact">
+            <h1>Get In Touch</h1>
+            <article>
+
+                <p>Phone: 93327349</p>
+                <p>Address: 123 ABC Street</p>
+            </article>
+            <div class="container">
+                <form method='post' action="mailto:admin@homelyfood.com.au">
+                    <label>Full Name </label>
+                    <input type="text" id="firstname" required>
+                    <label>Email</label>
+                    <input type="email" textmode="email" id="email" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" required>
+                    <label>Message</label>
+                    <textarea type="text" id="message" required placeholder="Write something.." style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+
+                </form>
+            </div>
+
+        </section>
+    </main>
 </body>
 </html>
