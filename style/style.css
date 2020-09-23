@@ -61,9 +61,28 @@ a:active {
   width: 100%;
 }
 .title-text h3{
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.7);
   padding: 1em;
 }
+.max{
+  height: 60%;
+  margin-bottom: 60%;
+  text-align: center;
+}
+
+.max img{
+  display: inline-block;
+  float: center;
+  height: 500px;
+}
+.max h3{
+  font-size: 3em;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 0.7em;
+
+
+}
+
 .bg {
   background-image: url("../img/bkg.jpg");
   height: auto;
@@ -72,6 +91,9 @@ a:active {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+
+}
+.main-text{
 
 }
 footer {
@@ -91,19 +113,21 @@ footer {
   text-align: center;
   display: inline-block;
   border-radius: 0.7em;
-  width: auto;
+  width: 100%;
   padding: 0.7em;
 }
 .cuisine-item {
   display: inline-block;
+  width: 30%;
+
 }
 
 .cuisine-item img {
-  height: 100px;
-  border-radius: 0.7em;
+  width: auto;
+  border-radius: 0.3em;
   border: burlywood;
   border-style: solid;
-  border-width: 5px;
+  border-width: 3px;
   margin: 0.7em;
 }
 
