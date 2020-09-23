@@ -142,6 +142,43 @@ textarea {
     border-radius: 4px;
     box-sizing: border-box;
 }
+
+#register {
+    width: 50%;
+    align-content: center;
+    margin: auto;
+}
+
+#register input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#login {
+    padding-top: 40px;
+    width: 50%;
+    align-content: center;
+    margin: auto;
+}
+
+#login input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
 /* STOLEN STYLING */
 #myInput {
   background-image: url('/css/searchicon.png'); /* Add a search icon to input */

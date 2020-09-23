@@ -21,7 +21,46 @@
             <li><a href="register.html">Register</a></li>
             <li><a href="login.html">Log In</a></li>
         </ul>
-       
+       <main>
+                <section id="register">
+            <h1>Member Registration</h1>
+            <div id="container">
+
+                <div id="content">
+
+
+                    <form method='post' action="mailto:admin@homelyfood.com.au">
+                        <label>Name</label>
+                        <input type="name" textmode="name" id="name"  required>
+
+                        <label>Email</label>
+                        <input type="email" textmode="email" id="email" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" required>
+                        <label>Password </label>
+                        <input type="password" id="password" required>
+
+                        <input type="radio" name="creditCheck" id="c01" value="1" checked/>Sign up as Customer
+<input type="radio" name="creditCheck" id="c02" value="2" />Sign up as Chef
+                      
+<input type="radio" name="creditCheck" id="c02" value="3" />Sign up as Driver
+
+
+                        <input type="submit" value="Submit">
+                        <label>Already have an account? </label>
+                        <a title="login" href="login.html">Login</a>
+                    </form>
+
+
+
+
+                </div><!-- close content -->
+
+            </div> <!-- close container -->
+
+
+
+
+        </section>
+        </main>
     </nav>
     </div>
 </body>
