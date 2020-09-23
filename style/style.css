@@ -58,7 +58,7 @@ a:active {
   opacity: 0.9;
   padding: 1em;
   margin-top: 1em;
-  width: auto;
+  width: 100%;
 }
 
 .bg {
@@ -168,9 +168,7 @@ footer {
   font-weight: bold;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.menu-item{
-  display: inline;
-}
+
 .menu-item{
   display: inline-block;
   width: 70%;
@@ -178,6 +176,7 @@ footer {
 }
 .menu-item img{
   height: 200px
+  
 }
 .menu-item h2{
   color: purple;
@@ -193,14 +192,30 @@ footer {
 }
 .arrangement{
   text-align: center;
+  height: 80%;
 }
 .col4{
   width: 20%;
   display: inline-block;
   background-color: rgba(255, 255, 255, 0.7);
-  height: 60%;
+  height: 100%;
   padding: 1em;
   border-radius: .7em;
 
 
+}
+.col4 img{
+  height: 200px;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.header-promo{
+  display: block;
+  background-color:rgb(255,0,20,.7);
+  border-radius: .7em;
+  padding:1em;
+  right: 0;
+  margin-bottom: 2em;
+  width: auto;
+  text-align: right;
 }
