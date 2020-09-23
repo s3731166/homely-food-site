@@ -60,7 +60,10 @@ a:active {
   margin-top: 1em;
   width: 100%;
 }
-
+.title-text h3{
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 1em;
+}
 .bg {
   background-image: url("../img/bkg.jpg");
   height: auto;
@@ -277,11 +280,28 @@ textarea {
 
 
 }
+
 .col4 img{
   height: 200px;
   margin-top: 3em;
   margin-bottom: 3em;
 }
+.col3{
+  width: 25%;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 100%;
+  padding: 1em;
+  border-radius: .7em;
+  font-size: 3em;  
+}
+
+.col3 img{
+  height: 200px;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
 .header-promo{
   display: block;
   background-color:rgb(255,0,20,.7);
