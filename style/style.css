@@ -322,14 +322,18 @@ textarea {
   height: 100%;
   padding: 1em;
   border-radius: .7em;
-
-
 }
-
+.col4 h2{
+  font-size: 35px;
+  color: rgb(88, 36, 5)
+}
 .col4 img{
   height: 200px;
   margin-top: 3em;
   margin-bottom: 3em;
+}
+.col-text{
+  font-size: 18px;
 }
 .col3{
   width: 25%;
