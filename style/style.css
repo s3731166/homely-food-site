@@ -342,7 +342,9 @@ textarea {
   height: 100%;
   padding: 1em;
   border-radius: .7em;
-  font-size: 3em;  
+  font-size: 60px; 
+  color:#502203;
+  font-weight: bold;  
 }
 .col3 h5{
   color: #8f3d0e;
