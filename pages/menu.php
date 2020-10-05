@@ -27,7 +27,7 @@
     <div class="title-text">
 
         <h1>Menu</h1>
-<h2>Welcome <?php echo $_SESSION['name']' ?> </h2>
+<h2>Welcome <?php echo $_SESSION['name']; ?> </h2>
     </div>
         <div class="menu-content">
             <div class="left-buttons">
