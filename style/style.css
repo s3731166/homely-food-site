@@ -344,7 +344,9 @@ textarea {
   border-radius: .7em;
   font-size: 3em;  
 }
-
+.col3 h5{
+  color: #8f3d0e;
+}
 .col3 img{
   height: 200px;
   margin-top: 3em;
