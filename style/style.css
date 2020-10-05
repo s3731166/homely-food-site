@@ -93,6 +93,19 @@ a:active {
   background-attachment: fixed;
 
 }
+
+.bg h3{
+  color: #944109;
+  font: Arial, serif;
+}
+
+.title-text h1{
+  color:  #5e2804;
+  font: Arial, sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
 .main-text{
 
 }
@@ -119,7 +132,10 @@ footer {
 .cuisine-item {
   display: inline-block;
   width: 30%;
-
+  font-size: 30px;
+  color: #662a08;
+  font: Arial, serif;
+  font-weight: bold;
 }
 
 .cuisine-item img {
