@@ -64,6 +64,7 @@ a:active {
   background-color: rgba(255, 255, 255, 0.7);
   padding: 1em;
 }
+
 .max{
   height: 60%;
   margin-bottom: 60%;
@@ -105,7 +106,12 @@ a:active {
   font-size: 50px;
   text-align: center;
 }
-
+.title-text h3{
+  color:  #a84a0b;
+  font: Arial, sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
 .main-text{
 
 }
@@ -276,7 +282,7 @@ textarea {
   /* padding: 3em; */
 }
 .left-buttons button{
-  background-color: rgba(211, 66, 211, 0.548);
+  background-color: rgb(160, 79, 12);
   color: rgba(255, 255, 255, 0.7);
   padding: 1em;
   width: 70%;
@@ -294,10 +300,10 @@ textarea {
   
 }
 .menu-item h2{
-  color: purple;
+  color: rgb(173, 79, 16);
   font-weight: bold;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: larger;
+  font-size: 30px;
 }
 .food-items{
   display: inline-block;
