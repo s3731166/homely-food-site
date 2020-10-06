@@ -1,28 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+    include 'nav-header.php';
+?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style/style.css">
-    <script src="js/script.js"></script>
 
-    <title>Homely Food</title>
-</head>
-
-<body>
-    <nav>
-        <ul>
-
-            <li><a href="index.html">Home</a></li>
-            <li><a href="pages/about.html"> About Us</a></li>
-            <li><a href="pages/contact.html">Contact Us</a></li>
-            <li><a href="pages/how-it-works.html">How We Work</a></li>
-            <li><a href="pages/menu.html">Menu</a></li>
-            <li><a href="pages/register.html">Register</a></li>
-            <li><a href="pages/login.html">Log In</a></li>
-        </ul>
-    </nav>
     <div class="bg">
         <div class="page-body">
             <div class="max">

@@ -1,33 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../style/style.css">
-    <script src="../js/script.js"></script>
-
-    <title>Homely Food</title>
-</head>
-
-<body>
-    <div class="bg">
-
-    <nav>
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="about.html"> About Us</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-            <li><a href="how-it-works.html">How We Work</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="register.html">Register</a></li>
-            <li><a href="login.html">Log In</a></li>
-        </ul>
-    </nav>
+<?php
+    include '../nav-header.php';
+    ?>
     <div class="title-text">
 
         <h1>Menu</h1>
-<h2>Welcome <?php echo $_SESSION['name']; ?> </h2>
+<h2>Welcome <?php echo $_SESSION['name'] ?> </h2>
     </div>
         <div class="menu-content">
             <div class="left-buttons">
@@ -96,7 +73,10 @@
                     <div class="food-items">
                         <div class="item">
                             <a href=""> <img src="../img/food-items/dumpling_cuisine.png" alt="barramundi_cuisine"></a>
-                        </div> 
+                            <a href=""> <img src="../img/new-food-items/chinese1.png" alt="chinese1"></a>
+                            <a href=""> <img src="../img/new-food-items/chinese2.png" alt="chinese2"></a>
+                            <a href=""> <img src="../img/new-food-items/chinese3.png" alt="chinese3"></a>
+                        </div>
                     </div>
                 </div>
                 <!-- END OF CUISINE -->
@@ -106,6 +86,9 @@
                     <div class="food-items">
                         <div class="item">
                             <a href=""> <img src="../img/food-items/carbonara_cuisine.png" alt="carbonara_cuisine"></a>
+                            <a href=""> <img src="../img/new-food-items/italian1.png" alt="italian1"></a>
+                            <a href=""> <img src="../img/new-food-items/italian2.png" alt="italian2"></a>
+                            <a href=""> <img src="../img/new-food-items/italian3.png" alt="italian3"></a>
                         </div>
                         
                        
@@ -118,6 +101,9 @@
                     <div class="food-items">
                         <div class="item">
                             <a href=""> <img src="../img/food-items/donburi_cuisine.png" alt="donburi_cuisine"></a>
+                            <a href=""> <img src="../img/new-food-items/japanese1.png" alt="japanese1"></a>
+                            <a href=""> <img src="../img/new-food-items/japanese2.png" alt="japanese2"></a>
+                            <a href=""> <img src="../img/new-food-items/japanese3.png" alt="japanese3"></a>
                         </div>
                         
                       
@@ -141,6 +127,9 @@
                     <div class="food-items">
                         <div class="item">
                             <a href=""> <img src="../img/food-items/kimchi_cuisine.png" alt="kimchi_cuisine"></a>
+                            <a href=""> <img src="../img/new-food-items/korean1.png" alt="korean1"></a>
+                            <a href=""> <img src="../img/new-food-items/korean2.png" alt="korean2"></a>
+                            <a href=""> <img src="../img/new-food-items/korean3.png" alt="korean3"></a>
                         </div>
                     </div>
                 </div>
@@ -151,6 +140,14 @@
                     <div class="food-items">
                         <div class="item">
                             <a href=""> <img src="../img/food-items/rendang_cuisine.png" alt="barramundi_cuisine"></a>
+                            <a href=""> <img src="../img/new-food-items/indonesian1.png" alt="indonesian1"></a>
+                            <a href=""> <img src="../img/new-food-items/indonesian2.png" alt="indonesian2"></a>
+                            <a href=""> <img src="../img/new-food-items/indonesian3.png" alt="indonesian3"></a>
+                            
+                            
+                            
+                            
+
                         </div>
                     </div>
                 </div>
@@ -171,6 +168,10 @@
                     <div class="food-items">
                         <div class="item">
                             <a href=""> <img src="../img/food-items/tomyum_cuisine.png" alt="barramundi_cuisine"></a>
+                            <a href=""> <img src="../img/new-food-items/thai1.png" alt="thai1"></a>
+                            <a href=""> <img src="../img/new-food-items/thai2.png" alt="thai2"></a>
+
+
                         </div>
                     </div>
                 </div>
@@ -184,4 +185,5 @@
    
 </body>
 
-</html>
+</html>         
+

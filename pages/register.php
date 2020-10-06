@@ -27,6 +27,7 @@ else{
 
 ?>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,63 +36,149 @@ else{
 
     <title>Homely Food</title>
 </head>
+
 <body>
     <div class="bg">
 
-    <nav>
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="about.html"> About Us</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-            <li><a href="how-it-works.html">How We Work</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="register.html">Register</a></li>
-            <li><a href="login.html">Log In</a></li>
-        </ul>
-       <main>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html"> About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="how-it-works.html">How We Work</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="login.html">Log In</a></li>
+            </ul>
+            <main>
                 <section id="register">
-            <h1>Member Registration</h1>
-            <div id="container">
+                    <h1>Member Registration</h1>
+                    <div id="container">
 
-                <div id="content">
+                        <div id="content">
 
 
-                    <form action="register.php" method="post" >
-                        <label>First Name</label>
-    <input name="firstname" type="text" value="" id="firstname" />
+                            <form action="register.php" method="post">
+                                <label>First Name</label>
+                                <input name="firstname" type="text" value="" id="firstname" />
 
-                        <label>Email</label>
-                        <input type="email" textmode="email" id="email" name="email" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" required>
-                        
-                        <label>Home Address</label>
-                        <input name="address" type="text" value="" id="address" />
-                        <label>Password </label>
-                        <input type="password" id="password" name="password" required>
+                                <label>Email</label>
+                                <input type="email" textmode="email" id="email" name="email"
+                                    pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" required>
 
-                        <input type="radio" name="creditCheck" id="c01" value="1" checked/>Sign up as Customer
+                                <label>Home Address</label>
+                                <input name="address" type="text" value="" id="address" />
+                                <label>Password </label>
+                                <input type="password" id="password" name="password" required>
+
+                                <input type="radio" name="creditCheck" id="c01" value="1" checked />Sign up as Customer
+                                <input type="radio" name="creditCheck" id="c02" value="2" />Sign up as Chef
+
+                                <input type="radio" name="creditCheck" id="c02" value="3" />Sign up as Driver
+
+
+                                <input type="submit" value="Submit">
+                                <label>Already have an account? </label>
+                                <a title="login" href="login.html">Login</a>
+                            </form>
+
+
+
+
+                        </div><!-- close content -->
+
+                    </div> <!-- close container -->
+
+
+
+
+                </section>
+            </main>
+        </nav>
+    </div>
+</body>
+
+</html>
+<input type="radio" name="creditCheck" id="c01" value="1" checked />Sign up as Customer
 <input type="radio" name="creditCheck" id="c02" value="2" />Sign up as Chef
-                      
+
 <input type="radio" name="creditCheck" id="c02" value="3" />Sign up as Driver
 
 
-                        <input type="submit" value="Submit">
-                        <label>Already have an account? </label>
-                        <a title="login" href="login.html">Login</a>
-                    </form>
+<input type="submit" value="Submit">
+<label>Already have an account? </label>
+<a title="login" href="login.html">Login</a>
+</form>
 
 
 
 
-                </div><!-- close content -->
+</div><!-- close content -->
 
-            </div> <!-- close container -->
-
-
+</div> <!-- close container -->
 
 
-        </section>
-        </main>
-    </nav>
-    </div>
+
+
+</section>
+</main>
+</nav>
+</div>
 </body>
+
+</html>
+<input type="radio" name="creditCheck" id="c01" value="1" checked />Sign up as Customer
+<input type="radio" name="creditCheck" id="c02" value="2" />Sign up as Chef
+
+<input type="radio" name="creditCheck" id="c02" value="3" />Sign up as Driver
+
+
+<input type="submit" value="Submit">
+<label>Already have an account? </label>
+<a title="login" href="login.html">Login</a>
+</form>
+
+
+
+
+</div><!-- close content -->
+
+</div> <!-- close container -->
+
+
+
+
+</section>
+</main>
+</nav>
+</div>
+</body>
+
+</html><input type="radio" name="creditCheck" id="c01" value="1" checked />Sign up as Customer
+<input type="radio" name="creditCheck" id="c02" value="2" />Sign up as Chef
+
+<input type="radio" name="creditCheck" id="c02" value="3" />Sign up as Driver
+
+
+<input type="submit" value="Submit">
+<label>Already have an account? </label>
+<a title="login" href="login.html">Login</a>
+</form>
+
+
+
+
+</div><!-- close content -->
+
+</div> <!-- close container -->
+
+
+
+
+</section>
+</main>
+</nav>
+</div>
+</body>
+
 </html>
