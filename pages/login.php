@@ -14,9 +14,9 @@
                 
                 <form action="validation.php" method="post">
 
-Email: <input type="text" name="username" required>
+<p style="color:#3d1a03; font-size: 20px; font-weight: bold;">Email:</p> <input type="text" name="username" required>
 <br />
-Password: <input type="password" name="password" required>
+<p style="color:#3d1a03; font-size: 20px; font-weight: bold;">Password:</p> <input type="password" name="password" required>
 <br />
 <input type="submit" name="submitBtn" value="Login" style="color:#3b1406; font-size: 25px; font-weight: bold; background-color: rgb(207, 114, 48);">
                  
