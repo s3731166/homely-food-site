@@ -17,14 +17,14 @@
             </article>
             <div class="container">
                 <form method='post' action="mailto:admin@homelyfood.com.au">
-                    <label>Full Name </label>
+                    <label style="color:#3d1a03; font-size: 20px; font-weight: bold;">Full Name </label>
                     <input type="text" id="firstname" required>
-                    <label>Email</label>
+                    <label style="color:#3d1a03; font-size: 20px; font-weight: bold;">Email</label>
                     <input type="email" textmode="email" id="email" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" required>
-                    <label>Message</label>
+                    <label style="color:#3d1a03; font-size: 20px; font-weight: bold;">Message</label>
                     <textarea type="text" id="message" required placeholder="Write something.." style="height:200px"></textarea>
 
-                    <input type="submit" value="Submit">
+                    <input type="submit" value="Submit" style="color:#3b1406; font-size: 25px; font-weight: bold; background-color: rgb(207, 114, 48);">
 
                 </form>
             </div>
