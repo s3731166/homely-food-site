@@ -90,8 +90,6 @@
                             <a href=""> <img src="../img/new-food-items/italian2.png" alt="italian2"></a>
                             <a href=""> <img src="../img/new-food-items/italian3.png" alt="italian3"></a>
                         </div>
-                        
-                       
                     </div>
                 </div>
                 <!-- END OF CUISINE -->
@@ -105,8 +103,6 @@
                             <a href=""> <img src="../img/new-food-items/japanese2.png" alt="japanese2"></a>
                             <a href=""> <img src="../img/new-food-items/japanese3.png" alt="japanese3"></a>
                         </div>
-                        
-                      
                     </div>
                 </div>
                 <!-- END OF CUISINE -->
@@ -116,11 +112,13 @@
                     <div class="food-items">
                         <div class="item">
                             <a href=""> <img src="../img/food-items/paella_cuisine.png" alt="paella_cuisine"></a>
+                            <a href=""> <img src="../img/new-food-items/spanish1.png" alt="spanish1"></a>
+                            <a href=""> <img src="../img/new-food-items/spanish2.png" alt="spanish2"></a>
+                            <a href=""> <img src="../img/new-food-items/spanish3.png" alt="spanish3"></a>
                         </div>
                     </div>
                 </div>
                 <!-- END OF CUISINE -->
-    
                 <div class="menu-item" id="korean"> 
     
                     <h2>Korean: </h2>
@@ -143,11 +141,6 @@
                             <a href=""> <img src="../img/new-food-items/indonesian1.png" alt="indonesian1"></a>
                             <a href=""> <img src="../img/new-food-items/indonesian2.png" alt="indonesian2"></a>
                             <a href=""> <img src="../img/new-food-items/indonesian3.png" alt="indonesian3"></a>
-                            
-                            
-                            
-                            
-
                         </div>
                     </div>
                 </div>
@@ -158,6 +151,9 @@
                     <div class="food-items">
                         <div class="item">
                             <a href=""> <img src="../img/food-items/taco_cuisine.png" alt="taco_cuisine"></a>
+                            <a href=""> <img src="../img/new-food-items/mexican1.png" alt="mexican1"></a>
+                            <a href=""> <img src="../img/new-food-items/mexican2.png" alt="mexican2"></a>
+                            <a href=""> <img src="../img/new-food-items/mexican3.png" alt="mexican3"></a>
                         </div>
                     </div>
                 </div>
@@ -170,8 +166,7 @@
                             <a href=""> <img src="../img/food-items/tomyum_cuisine.png" alt="barramundi_cuisine"></a>
                             <a href=""> <img src="../img/new-food-items/thai1.png" alt="thai1"></a>
                             <a href=""> <img src="../img/new-food-items/thai2.png" alt="thai2"></a>
-
-
+                            <a href=""> <img src="../img/new-food-items/thai1.png" alt="thai1"></a>
                         </div>
                     </div>
                 </div>
