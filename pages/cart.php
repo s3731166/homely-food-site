@@ -112,11 +112,11 @@
 
                             <div class="product">
                                 <img src="../img/food-items/<?php echo $row["image"]; ?>" class="img-responsive">
-                                <input type="text" name="quantity" class="form-control" value="1">
+                                <input type="text" name="quantity" class="form-control" value="1" style="padding: 12px 15px; margin: 8px 0; box-sizing: border-box; border:2px solid black;">
                                 <input type="hidden" name="hidden_name" value="<?php echo $row["name"]; ?>">
                                 <input type="hidden" name="hidden_price" value="<?php echo $row["price"]; ?>">
-                                <input type="date" name="timedate" id="">
-                                <input type="submit" name="add" style="margin-top: 5px; background-color:  #f5a26b; font-weight: bold;" class="btn btn-success"
+                                <input type="date" name="timedate" id="" style="padding: 10px 15px; margin: 8px 0; box-sizing: border-box; border:2px solid black;">
+                                <input type="submit" name="add" style="padding: 10px 15px; margin-top: 5px; background-color: #f5a26b; font-weight: bold;" class="btn btn-success"
                                        value="Add to Cart">
                             </div>
                         </form>
