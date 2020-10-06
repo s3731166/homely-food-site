@@ -66,7 +66,7 @@
     }
     
  ?>
-  <p class="productTitles">Checkout</p>  
+  <p class="productTitles" style="color: #5e2804; font: Arial, sans-serif; font-size: 50px; text-align: center; background-color: antiquewhite; opacity: 0.9; padding: 1em; margin-top: 1em; width: 100%; font-weight: bold;">Checkout</p>  
 
   <form method = "post" action=<?php 
            if($valid){
@@ -75,17 +75,17 @@
 
            
     <div class = "checkoutForm">
-    <p>Name:</p> <input type="text" name="name" value= "<?php echo $name; ?>" > <?php echo $nameErr;?>
-   <p>Email:</p><input type="email" name="email" value = "<?php echo $email; ?>" ><?php echo $emailErr;?>
-   <p>Address</p><input type="text area" name="address" value = "<?php echo $address; ?>" ><?php echo $addressErr;?>
-   <p>Mobile Phone:</p><input type="text" name="phone" value = "<?php echo $phone; ?>" ><?php echo $phoneErr;?>
-   <p>Credit Card</p><input type="text" name="creditCard" value = "<?php echo $creditCard; ?>" onchange="visaCheck(creditCard)" >
+    <p style="color:#3d1a03; font-size: 20px; font-weight: bold;">Name:</p> <input type="text" name="name" value= "<?php echo $name; ?>" > <?php echo $nameErr;?>
+   <p style="color:#3d1a03; font-size: 20px; font-weight: bold;">Email:</p><input type="email" name="email" value = "<?php echo $email; ?>" ><?php echo $emailErr;?>
+   <p style="color:#3d1a03; font-size: 20px; font-weight: bold;">Address</p><input type="text area" name="address" value = "<?php echo $address; ?>" ><?php echo $addressErr;?>
+   <p style="color:#3d1a03; font-size: 20px; font-weight: bold;">Mobile Phone:</p><input type="text" name="phone" value = "<?php echo $phone; ?>" ><?php echo $phoneErr;?>
+   <p style="color:#3d1a03; font-size: 20px; font-weight: bold;">Credit Card</p><input type="text" name="creditCard" value = "<?php echo $creditCard; ?>" onchange="visaCheck(creditCard)" >
     <?php echo $cardErr;?><img id="visaImage" width=20px; src="media/blank-card.png.png">
-   <p>Expiry Date</p><input type="date" name="expiry" value="<?php echo $expiry; ?>" ><br/>
+   <p style="color:#3d1a03; font-size: 20px; font-weight: bold;">Expiry Date</p><input type="date" name="expiry" value="<?php echo $expiry; ?>" ><br/>
        
  
 
-    <input type="submit" name="finalCheckout">
+    <input type="submit" name="finalCheckout" style="color:#3b1406; font-size: 25px; font-weight: bold; background-color: rgb(207, 114, 48);">
     <?php echo $_SESSION["total"] ?>
     </div>
    
