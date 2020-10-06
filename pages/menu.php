@@ -72,7 +72,7 @@
                     <h2>Chinese: </h2>
                     <div class="food-items">
                         <div class="item">
-                            <a href=""> <img src="../img/food-items/dumpling_cuisine.png" alt="barramundi_cuisine"></a>
+                            <a href=""> <img src="../img/food-items/dumpling_cuisine.png" alt="dumpling_cuisine"></a>
                             <a href=""> <img src="../img/new-food-items/chinese1.png" alt="chinese1"></a>
                             <a href=""> <img src="../img/new-food-items/chinese2.png" alt="chinese2"></a>
                             <a href=""> <img src="../img/new-food-items/chinese3.png" alt="chinese3"></a>
@@ -137,7 +137,7 @@
                     <h2>Indonesian: </h2>
                     <div class="food-items">
                         <div class="item">
-                            <a href=""> <img src="../img/food-items/rendang_cuisine.png" alt="barramundi_cuisine"></a>
+                            <a href=""> <img src="../img/food-items/rendang_cuisine.png" alt="rendang_cuisine"></a>
                             <a href=""> <img src="../img/new-food-items/indonesian1.png" alt="indonesian1"></a>
                             <a href=""> <img src="../img/new-food-items/indonesian2.png" alt="indonesian2"></a>
                             <a href=""> <img src="../img/new-food-items/indonesian3.png" alt="indonesian3"></a>
@@ -163,7 +163,7 @@
                     <h2>Thai: </h2>
                     <div class="food-items">
                         <div class="item">
-                            <a href=""> <img src="../img/food-items/tomyum_cuisine.png" alt="barramundi_cuisine"></a>
+                            <a href=""> <img src="../img/food-items/tomyum_cuisine.png" alt="tomyum_cuisine"></a>
                             <a href=""> <img src="../img/new-food-items/thai1.png" alt="thai1"></a>
                             <a href=""> <img src="../img/new-food-items/thai2.png" alt="thai2"></a>
                             <a href=""> <img src="../img/new-food-items/thai3.png" alt="thai3"></a>
