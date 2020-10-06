@@ -72,6 +72,8 @@
            if($valid){
              echo "receit.php";  }                           
            ?>>
+
+           
     <div class = "checkoutForm">
     <p>Name:</p> <input type="text" name="name" value= "<?php echo $name; ?>" > <?php echo $nameErr;?>
    <p>Email:</p><input type="email" name="email" value = "<?php echo $email; ?>" ><?php echo $emailErr;?>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="http://localhost/homely-food-site/style/style.css">
+    <script src="http://localhost/homely-food-site/js/script.js"></script>
+
+    <title>Homely Food</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="http://localhost/homely-food-site/index.php">Home</a></li>
+            <li><a href="http://localhost/homely-food-site/pages/about.php"> About Us</a></li>
+            <li><a href="http://localhost/homely-food-site/pages/contact.php">Contact Us</a></li>
+            <li><a href="http://localhost/homely-food-site/pages/how-it-works.php">How We Work</a></li>
+            <li><a href="http://localhost/homely-food-site/pages/menu.php">Menu</a></li>
+            <li><a href="http://localhost/homely-food-site/pages/register.php">Register</a></li>
+            <li><a href="http://localhost/homely-food-site/pages/login.php">Log In</a></li>
+        </ul>
+    </nav>
+  <p class="productTitles">Checkout</p>  
+
+  <form method = "post" >
+
+           
+    <div class = "checkoutForm">
+    <p>Name:</p> <input type="text" name="name" value= "<?php echo $name; ?>" > <?php echo $nameErr;?>
+   <p>Email:</p><input type="email" name="email" value = "<?php echo $email; ?>" ><?php echo $emailErr;?>
+   <p>Address</p><input type="text area" name="address" value = "<?php echo $address; ?>" ><?php echo $addressErr;?>
+   <p>Mobile Phone:</p><input type="text" name="phone" value = "<?php echo $phone; ?>" ><?php echo $phoneErr;?>
+   <p>Credit Card</p><input type="text" name="creditCard" value = "<?php echo $creditCard; ?>" onchange="visaCheck(creditCard)" >
+   <p>Expiry Date</p><input type="date" name="expiry" value="<?php echo $expiry; ?>" ><br/>
+       
+ 
+
+    <input type="submit" name="finalCheckout">
+    </div>
+    <h3>TOTAL: 50</h3>
+   
+</form>
+</body>
+</html>

@@ -13,6 +13,8 @@
                     'item_name' => $_POST["hidden_name"],
                     'product_price' => $_POST["hidden_price"],
                     'item_quantity' => $_POST["quantity"],
+                    'time_date' => $_POST["timedate"],
+
                 );
                 $_SESSION["cart"][$count] = $item_array;
                 echo '<script>window.location="Cart.php"</script>';
@@ -26,6 +28,8 @@
                 'item_name' => $_POST["hidden_name"],
                 'product_price' => $_POST["hidden_price"],
                 'item_quantity' => $_POST["quantity"],
+                'time_date' => $_POST["timedate"],
+
             );
             $_SESSION["cart"][0] = $item_array;
         }
@@ -102,6 +106,7 @@
                                 <input type="text" name="quantity" class="form-control" value="1">
                                 <input type="hidden" name="hidden_name" value="<?php echo $row["name"]; ?>">
                                 <input type="hidden" name="hidden_price" value="<?php echo $row["price"]; ?>">
+                                <input type="date" name="timedate" id="">
                                 <input type="submit" name="add" style="margin-top: 5px;" class="btn btn-success"
                                        value="Add to Cart">
                             </div>
@@ -117,9 +122,12 @@
         <div class="table-responsive">
             <table class="table table-bordered">
             <tr>
-                <th width="30%">Product Name</th>
+                <th width="20%">Product Name</th>
                 <th width="10%">Quantity</th>
+
                 <th width="13%">Price Details</th>
+                <th width="10%">Time/Day</th>
+
                 <th width="10%">Total Price</th>
                 <th width="17%">Remove Item</th>
             </tr>
@@ -133,6 +141,8 @@
                             <td><?php echo $value["item_name"]; ?></td>
                             <td><?php echo $value["item_quantity"]; ?></td>
                             <td>$ <?php echo $value["product_price"]; ?></td>
+                            <td> <?php echo $value["time_date"]; ?></td>
+
                             <td>
                                 $ <?php echo number_format($value["item_quantity"] * $value["product_price"], 2); ?></td>
                             <td><a href="Cart.php?action=delete&id=<?php echo $value["product_id"]; ?>"><span
