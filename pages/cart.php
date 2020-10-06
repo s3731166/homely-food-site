@@ -72,10 +72,14 @@
             padding: 2%;
         }
         h2{
-            text-align: center;
-            color: #66afe9;
-            background-color: #efefef;
-            padding: 2%;
+            color:  #5e2804;
+            font: Arial, sans-serif;
+            font-size: 50px;
+            text-align: center; background-color: antiquewhite;
+            opacity: 0.9;
+            padding: 1em;
+            margin-top: 1em;
+            width: 100%;"
         }
         table th{
             background-color: #efefef;
@@ -168,6 +172,6 @@
     </div>
 
     <form method = "post" action= "checkout.php">
-    <input type="submit" value = "Checkout" name="checkout">
+    <input type="submit" value = "Checkout" name="checkout" style="color:#3b1406; font-size: 25px; font-weight: bold; background-color: rgb(207, 114, 48);">
   </form></body>
 </html>
