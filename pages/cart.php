@@ -111,7 +111,7 @@
                                 <input type="hidden" name="hidden_name" value="<?php echo $row["name"]; ?>">
                                 <input type="hidden" name="hidden_price" value="<?php echo $row["price"]; ?>">
                                 <input type="date" name="timedate" id="">
-                                <input type="submit" name="add" style="margin-top: 5px;" class="btn btn-success"
+                                <input type="submit" name="add" style="margin-top: 5px; background-color:  #f5a26b; font-weight: bold;" class="btn btn-success"
                                        value="Add to Cart">
                             </div>
                         </form>
