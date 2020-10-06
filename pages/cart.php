@@ -65,10 +65,15 @@
         table, th, tr{
             text-align: center;
         }
+        table{
+            border-spacing: 0 15px;
+        }
         .title2{
             text-align: center;
-            color: #66afe9;
-            background-color: #efefef;
+            color: #5e2804;
+            background-color: #ebae85;
+            text-align: center;
+            font-size: 30px;
             padding: 2%;
         }
         h2{
@@ -126,14 +131,14 @@
         <div class="table-responsive">
             <table class="table table-bordered">
             <tr>
-                <th width="20%">Product Name</th>
-                <th width="10%">Quantity</th>
+                <th width="20%" style="font-weight: bold; font-size: 18px; color: #351304;">Product Name</th>
+                <th width="10%" style="font-weight: bold; font-size: 18px; color: #351304;">Quantity</th>
 
-                <th width="13%">Price Details</th>
-                <th width="10%">Time/Day</th>
+                <th width="13%" style="font-weight: bold; font-size: 18px; color: #351304;">Price Details</th>
+                <th width="10%" style="font-weight: bold; font-size: 18px; color: #351304;">Time/Day</th>
 
-                <th width="10%">Total Price</th>
-                <th width="17%">Remove Item</th>
+                <th width="10%" style="font-weight: bold; font-size: 18px; color: #351304;">Total Price</th>
+                <th width="17%" style="font-weight: bold; font-size: 18px; color: #351304;">Remove Item</th>
             </tr>
 
             <?php
@@ -142,14 +147,14 @@
                     foreach ($_SESSION["cart"] as $key => $value) {
                         ?>
                         <tr>
-                            <td><?php echo $value["item_name"]; ?></td>
-                            <td><?php echo $value["item_quantity"]; ?></td>
-                            <td>$ <?php echo $value["product_price"]; ?></td>
-                            <td> <?php echo $value["time_date"]; ?></td>
+                            <td style="font-size: 17px;"><?php echo $value["item_name"]; ?></td>
+                            <td style="font-size: 17px;"><?php echo $value["item_quantity"]; ?></td>
+                            <td style="font-size: 17px;">$ <?php echo $value["product_price"]; ?></td>
+                            <td style="font-size: 17px;"> <?php echo $value["time_date"]; ?></td>
 
                             <td>
                                 $ <?php echo number_format($value["item_quantity"] * $value["product_price"], 2); ?></td>
-                            <td><a href="Cart.php?action=delete&id=<?php echo $value["product_id"]; ?>"><span
+                            <td style="font-size: 17px;"><a href="Cart.php?action=delete&id=<?php echo $value["product_id"]; ?>"><span
                                         class="text-danger">Remove Item</span></a></td>
 
                         </tr>
@@ -158,8 +163,8 @@
                     }
                         ?>
                         <tr>
-                            <td colspan="3" align="right">Total</td>
-                            <th align="right">$ <?php echo number_format($total, 2); ?></th>
+                            <td colspan="3" align="right" style="font-weight: bold; font-size: 20px;">Total</td>
+                            <th align="right" style="font-weight: bold; font-size: 20px;">$ <?php echo number_format($total, 2); ?></th>
                             <?php $_SESSION["total"]  = $total?>
                             <td></td>
                         </tr>
@@ -172,6 +177,6 @@
     </div>
 
     <form method = "post" action= "checkout.php">
-    <input type="submit" value = "Checkout" name="checkout" style="color:#3b1406; font-size: 25px; font-weight: bold; background-color: rgb(207, 114, 48);">
+    <input type="submit" value = "Checkout" name="checkout" style="color:#3b1406; font-size: 25px; font-weight: bold; background-color: rgb(207, 114, 48); ">
   </form></body>
 </html>
