@@ -25,10 +25,11 @@
     </nav>
         <main>
         <section id="login">
-
+            
+        <div class="title-text">
             <h1>Member Log In</h1>
 
-
+        </div>
             <div class="container">
                 
                 <form action="validation.php" method="post">
