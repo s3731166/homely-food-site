@@ -83,8 +83,9 @@
     <?php echo $cardErr;?><img id="visaImage" width=20px; src="media/blank-card.png.png">
    <p style="color:#3d1a03; font-size: 20px; font-weight: bold;">Expiry Date</p><input type="date" name="expiry" value="<?php echo $expiry; ?>" ><br/>
        
- 
-
+   <br>
+   <br>
+        
     <input type="submit" name="finalCheckout" style="color:#3b1406; font-size: 25px; font-weight: bold; background-color: rgb(207, 114, 48);">
     <?php echo $_SESSION["total"] ?>
     </div>
