@@ -166,7 +166,7 @@
                             <a href=""> <img src="../img/food-items/tomyum_cuisine.png" alt="barramundi_cuisine"></a>
                             <a href=""> <img src="../img/new-food-items/thai1.png" alt="thai1"></a>
                             <a href=""> <img src="../img/new-food-items/thai2.png" alt="thai2"></a>
-                            <a href=""> <img src="../img/new-food-items/thai1.png" alt="thai1"></a>
+                            <a href=""> <img src="../img/new-food-items/thai3.png" alt="thai3"></a>
                         </div>
                     </div>
                 </div>
