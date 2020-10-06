@@ -3,7 +3,7 @@
 
 session_start();
 
-$con = mysqli_connect('localhost','root','1234');// Database , user, pass
+$con = mysqli_connect('localhost','root','');// Database , user, pass
     
 mysqli_select_db($con,'register'); //database name
 $name = $_POST['firstname'];
@@ -79,7 +79,7 @@ else{
 
                                 <input type="submit" value="Submit">
                                 <label>Already have an account? </label>
-                                <a title="login" href="login.html">Login</a>
+                                <a title="login" href="login.php">Login</a>
                             </form>
 
 
@@ -107,7 +107,7 @@ else{
 
 <input type="submit" value="Submit">
 <label>Already have an account? </label>
-<a title="login" href="login.html">Login</a>
+<a title="login" href="login.php">Login</a>
 </form>
 
 

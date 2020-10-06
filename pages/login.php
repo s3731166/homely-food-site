@@ -1,6 +1,6 @@
 <?php
     include '../nav-header.php';
-    ?>
+?>
 
 
         <main>
@@ -13,11 +13,11 @@
             <div class="container">
                 
                 <form action="validation.php" method="post">
-Email: <input type="text" name="username" required>
-<br />
-Password: <input type="password" name="password" required>
-<br />
-<input type="submit" name="submitBtn" value="Login">
+                    Email: <input type="text" name="username" required>
+                    <br />
+                    Password: <input type="password" name="password" required>
+                    <br />
+                    <input type="submit" name="submitBtn" value="Login">
                  
 
                     <label>Don't have an account? </label>

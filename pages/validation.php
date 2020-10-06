@@ -3,7 +3,7 @@
 session_start();
 
 
-$con = mysqli_connect('localhost','root','1234'); // Database , user, pass
+$con = mysqli_connect('localhost','root',''); // Database , user, pass
     
 mysqli_select_db($con,'register'); //database name
 
