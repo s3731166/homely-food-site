@@ -5,9 +5,9 @@
     <main>
         <div class="title-text">
             <h1>Get In Touch</h1>
-            <h3>Phone: 93327349</h3>
-                <h3>Address: 123 ABC Street</h3>
-                <h3>admin@homelyfood.com.au</h3>
+            <h3 style="color: rgb(97, 40, 7); font-size:25px; background-color: rgb(250, 155, 120);">&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;Phone: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;93327349</h3>
+                <h3 style="color: rgb(97, 40, 7); font-size:25px; background-color: rgb(250, 155, 120);">&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;Address: &nbsp;&nbsp; 123 ABC Street</h3>
+                <h3 style="color: rgb(97, 40, 7); font-size:25px; background-color: rgb(250, 155, 120);">&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; Email: &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;admin@homelyfood.com.au</h3>
         </div>
     <section id="contact">
         
