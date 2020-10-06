@@ -77,9 +77,10 @@ else{
                                 <input type="radio" name="creditCheck" id="c02" value="3" />Sign up as Driver
 
 
-                                <input type="submit" value="Submit">
-                                <label>Already have an account? </label>
-                                <a title="login" href="login.php">Login</a>
+
+                                <input type="submit" value="Submit" style="color:#3b1406; font-size: 25px; font-weight: bold; background-color: rgb(207, 114, 48);">
+                                <label style="color:#3d1a03; font-size: 25px; font-weight: bold; text-align: left;">Already have an account? &nbsp;&nbsp;&nbsp; </label>
+                                <a title="login" href="login.html" style="color:#0e033d; font-size: 25px; font-weight: bold; text-align: left;">Login</a>
                             </form>
 
 
