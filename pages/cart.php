@@ -50,11 +50,13 @@
 
     <style>
         .product{
+            display:inline;
             border: 1px solid #eaeaec;
-            margin: -1px 19px 3px -1px;
+            margin: 5px;
             padding: 10px;
             text-align: center;
             background-color: #efefef;
+            width:20%;
         }
         table, th, tr{
             text-align: center;
@@ -97,8 +99,6 @@
 
                             <div class="product">
                                 <img src="../img/food-items/<?php echo $row["image"]; ?>" class="img-responsive">
-                                <h5 class="text-info"><?php echo $row["name"]; ?></h5>
-                                <h5 class="text-danger"><?php echo $row["price"]; ?></h5>
                                 <input type="text" name="quantity" class="form-control" value="1">
                                 <input type="hidden" name="hidden_name" value="<?php echo $row["name"]; ?>">
                                 <input type="hidden" name="hidden_price" value="<?php echo $row["price"]; ?>">
@@ -146,6 +146,7 @@
                         <tr>
                             <td colspan="3" align="right">Total</td>
                             <th align="right">$ <?php echo number_format($total, 2); ?></th>
+                            <?php $_SESSION["total"]  = $total?>
                             <td></td>
                         </tr>
                         <?php
@@ -156,6 +157,7 @@
 
     </div>
 
-
-</body>
+    <form method = "post" action= "checkout.php">
+    <input type="submit" value = "Checkout" name="checkout">
+  </form></body>
 </html>
