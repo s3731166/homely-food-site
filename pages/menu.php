@@ -73,9 +73,9 @@
                     <div class="food-items">
                         <div class="item">
                             <a href="cart.php"> <img src="../img/food-items/dumpling_cuisine.png" alt="dumpling_cuisine"></a>
-                            <a href="cart.php"> <img src="../img/new-food-items/chinese1.png" alt="chinese1"></a>
-                            <a href="cart.php"> <img src="../img/new-food-items/chinese2.png" alt="chinese2"></a>
-                            <a href="cart.php"> <img src="../img/new-food-items/chinese3.png" alt="chinese3"></a>
+                            <a href="cart.php"> <img src="../img/food-items/chinese1.png" alt="chinese1"></a>
+                            <a href="cart.php"> <img src="../img/food-items/chinese2.png" alt="chinese2"></a>
+                            <a href="cart.php"> <img src="../img/food-items/chinese3.png" alt="chinese3"></a>
                         </div>
                     </div>
                 </div>
@@ -86,9 +86,9 @@
                     <div class="food-items">
                         <div class="item">
                             <a href="cart.php"> <img src="../img/food-items/carbonara_cuisine.png" alt="carbonara_cuisine"></a>
-                            <a href="cart.php"> <img src="../img/new-food-items/italian1.png" alt="italian1"></a>
-                            <a href="cart.php"> <img src="../img/new-food-items/italian2.png" alt="italian2"></a>
-                            <a href="cart.php"> <img src="../img/new-food-items/italian3.png" alt="italian3"></a>
+                            <a href="cart.php"> <img src="../img/food-items/italian1.png" alt="italian1"></a>
+                            <a href="cart.php"> <img src="../img/food-items/italian2.png" alt="italian2"></a>
+                            <a href="cart.php"> <img src="../img/food-items/italian3.png" alt="italian3"></a>
                         </div>
                     </div>
                 </div>
@@ -99,9 +99,9 @@
                     <div class="food-items">
                         <div class="item">
                             <a href="cart.php"> <img src="../img/food-items/donburi_cuisine.png" alt="donburi_cuisine"></a>
-                            <a href="cart.php"> <img src="../img/new-food-items/japanese1.png" alt="japanese1"></a>
-                            <a href="cart.php"> <img src="../img/new-food-items/japanese2.png" alt="japanese2"></a>
-                            <a href="cart.php"> <img src="../img/new-food-items/japanese3.png" alt="japanese3"></a>
+                            <a href="cart.php"> <img src="../img/food-items/japanese1.png" alt="japanese1"></a>
+                            <a href="cart.php"> <img src="../img/food-items/japanese2.png" alt="japanese2"></a>
+                            <a href="cart.php"> <img src="../img/food-items/japanese3.png" alt="japanese3"></a>
                         </div>
                     </div>
                 </div>
@@ -112,9 +112,9 @@
                     <div class="food-items">
                         <div class="item">
                             <a href="cart.php"> <img src="../img/food-items/paella_cuisine.png" alt="paella_cuisine"></a>
-                            <a href="cart.php"> <img src="../img/new-food-items/spanish1.png" alt="spanish1"></a>
-                            <a href="cart.php"> <img src="../img/new-food-items/spanish2.png" alt="spanish2"></a>
-                            <a href="cart.php"> <img src="../img/new-food-items/spanish3.png" alt="spanish3"></a>
+                            <a href="cart.php"> <img src="../img/food-items/spanish1.png" alt="spanish1"></a>
+                            <a href="cart.php"> <img src="../img/food-items/spanish2.png" alt="spanish2"></a>
+                            <a href="cart.php"> <img src="../img/food-items/spanish3.png" alt="spanish3"></a>
                         </div>
                     </div>
                 </div>
@@ -125,9 +125,9 @@
                     <div class="food-items">
                         <div class="item">
                             <a href="cart.php"> <img src="../img/food-items/kimchi_cuisine.png" alt="kimchi_cuisine"></a>
-                            <a href="cart.php"> <img src="../img/new-food-items/korean1.png" alt="korean1"></a>
-                            <a href="cart.php"> <img src="../img/new-food-items/korean2.png" alt="korean2"></a>
-                            <a href="cart.php"> <img src="../img/new-food-items/korean3.png" alt="korean3"></a>
+                            <a href="cart.php"> <img src="../img/food-items/korean1.png" alt="korean1"></a>
+                            <a href="cart.php"> <img src="../img/food-items/korean2.png" alt="korean2"></a>
+                            <a href="cart.php"> <img src="../img/food-items/korean3.png" alt="korean3"></a>
                         </div>
                     </div>
                 </div>
@@ -138,9 +138,9 @@
                     <div class="food-items">
                         <div class="item">
                             <a href="cart.php"> <img src="../img/food-items/rendang_cuisine.png" alt="rendang_cuisine"></a>
-                            <a href="cart.php"> <img src="../img/new-food-items/indonesian1.png" alt="indonesian1"></a>
-                            <a href="cart.php"> <img src="../img/new-food-items/indonesian2.png" alt="indonesian2"></a>
-                            <a href="cart.php"> <img src="../img/new-food-items/indonesian3.png" alt="indonesian3"></a>
+                            <a href="cart.php"> <img src="../img/food-items/indonesian1.png" alt="indonesian1"></a>
+                            <a href="cart.php"> <img src="../img/food-items/indonesian2.png" alt="indonesian2"></a>
+                            <a href="cart.php"> <img src="../img/food-items/indonesian3.png" alt="indonesian3"></a>
                         </div>
                     </div>
                 </div>
@@ -151,9 +151,9 @@
                     <div class="food-items">
                         <div class="item">
                             <a href="cart.php"> <img src="../img/food-items/taco_cuisine.png" alt="taco_cuisine"></a>
-                            <a href="cart.php"> <img src="../img/new-food-items/mexican1.png" alt="mexican1"></a>
-                            <a href="cart.php"> <img src="../img/new-food-items/mexican2.png" alt="mexican2"></a>
-                            <a href="cart.php"> <img src="../img/new-food-items/mexican3.png" alt="mexican3"></a>
+                            <a href="cart.php"> <img src="../img/food-items/mexican1.png" alt="mexican1"></a>
+                            <a href="cart.php"> <img src="../img/food-items/mexican2.png" alt="mexican2"></a>
+                            <a href="cart.php"> <img src="../img/food-items/mexican3.png" alt="mexican3"></a>
                         </div>
                     </div>
                 </div>
@@ -164,9 +164,9 @@
                     <div class="food-items">
                         <div class="item">
                             <a href="cart.php"> <img src="../img/food-items/tomyum_cuisine.png" alt="tomyum_cuisine"></a>
-                            <a href="cart.php"> <img src="../img/new-food-items/thai1.png" alt="thai1"></a>
-                            <a href="cart.php"> <img src="../img/new-food-items/thai2.png" alt="thai2"></a>
-                            <a href="cart.php"> <img src="../img/new-food-items/thai3.png" alt="thai3"></a>
+                            <a href="cart.php"> <img src="../img/food-items/thai1.png" alt="thai1"></a>
+                            <a href="cart.php"> <img src="../img/food-items/thai2.png" alt="thai2"></a>
+                            <a href="cart.php"> <img src="../img/food-items/thai3.png" alt="thai3"></a>
                         </div>
                     </div>
                 </div>

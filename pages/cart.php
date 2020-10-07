@@ -53,14 +53,17 @@
     ?>
 
     <style>
+        body{
+            text-align:center;
+        }
         .product{
-            display:inline;
+            display:inline-block;
             border: 1px solid #eaeaec;
             margin: 5px;
             padding: 10px;
             text-align: center;
             background-color: #efefef;
-            width:20%;
+            width:25%;
         }
         table, th, tr{
             text-align: center;
@@ -92,11 +95,19 @@
         img{
             height: 200px;
         }
-    </style>
+        .container{
+            display:inline-block;
+            text-align:center; 
+        }
+        form{
+            display: inline;
+        }
+
+</style>
 
 <body>
 
-    <div class="container" style="width: 65%">
+    <div class="container" style="width: 1000%">
         <h2>Shopping Cart</h2>
         <?php
             $query = "SELECT * FROM products ORDER BY id ASC ";
@@ -106,7 +117,7 @@
                 while ($row = mysqli_fetch_array($result)) {
 
                     ?>
-                    <div class="col-md-3">
+                    <!-- <div class="col-md-3"> -->
 
                         <form method="post" action="Cart.php?action=add&id=<?php echo $row["id"]; ?>">
 
@@ -120,7 +131,7 @@
                                        value="Add to Cart">
                             </div>
                         </form>
-                    </div>
+                    <!-- </div> -->
                     <?php
                 }
             }
@@ -173,10 +184,10 @@
                 ?>
             </table>
         </div>
-
+        <form method = "post" action= "checkout.php">
+            <input type="submit" value = "Checkout" name="checkout" style="color:#3b1406; font-size: 25px; font-weight: bold; background-color: rgb(207, 114, 48); ">
+        </form>
     </div>
 
-    <form method = "post" action= "checkout.php">
-    <input type="submit" value = "Checkout" name="checkout" style="color:#3b1406; font-size: 25px; font-weight: bold; background-color: rgb(207, 114, 48); ">
-  </form></body>
+   </body>
 </html>
