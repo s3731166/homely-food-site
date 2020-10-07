@@ -3,6 +3,13 @@
     $database_name = "register";
     $con = mysqli_connect("localhost","root","",$database_name);
 
+    if ($_SESSION['loggedin'] == true) {
+    echo "Welcome to the member's area, " . $_SESSION['username'] . "!";
+  } else {
+    echo "Please log in first to see this page.";
+    header("Location: login.php");
+}
+
     if (isset($_POST["add"])){
         if (isset($_SESSION["cart"])){
             $item_array_id = array_column($_SESSION["cart"],"product_id");

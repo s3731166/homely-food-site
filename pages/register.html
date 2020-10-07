@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style/style.css">
+    <script src="../js/script.js"></script>
+
+    <title>Homely Food</title>
+</head>
+<body>
+    <div class="bg">
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html"> About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="how-it-works.html">How We Work</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Log In</a></li>
+        </ul>
+       <main>
+                <section id="register">
+            <h1>Member Registration</h1>
+            <div id="container">
+
+                <div id="content">
+
+
+                    <form method='post' action="mailto:admin@homelyfood.com.au">
+                        <label>Name</label>
+                        <input type="name" textmode="name" id="name"  required>
+
+                        <label>Email</label>
+                        <input type="email" textmode="email" id="email" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" required>
+                        <label>Password </label>
+                        <input type="password" id="password" required>
+
+                        <input type="radio" name="creditCheck" id="c01" value="1" checked/>Sign up as Customer
+<input type="radio" name="creditCheck" id="c02" value="2" />Sign up as Chef
+                      
+<input type="radio" name="creditCheck" id="c02" value="3" />Sign up as Driver
+
+
+                        <input type="submit" value="Submit">
+                        <label>Already have an account? </label>
+                        <a title="login" href="login.html">Login</a>
+                    </form>
+
+
+
+
+                </div><!-- close content -->
+
+            </div> <!-- close container -->
+
+
+
+
+        </section>
+        </main>
+    </nav>
+    </div>
+</body>
+</html>

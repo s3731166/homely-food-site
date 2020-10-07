@@ -1,5 +1,7 @@
 <?php
   session_start();
+    $database_name = "register";
+    $con = mysqli_connect("localhost","root","",$database_name);
   include '../nav-header.php';
 
     
@@ -37,12 +39,16 @@ $html=<<<"OUTPUT"
                
           
                     <hr>
-      
+     
 OUTPUT;
 echo $html;
-}
-?>
 
+
+
+}
+
+ unset ($_SESSION["cart"]);
+?>
 
 
   <?php
@@ -51,7 +57,7 @@ echo $html;
 body();
   
 ?>
-        </main>
+        
         <?php
     include '../footer.php';
 ?>

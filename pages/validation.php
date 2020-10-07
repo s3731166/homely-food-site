@@ -32,6 +32,7 @@ else{
 
 if($count ==1) { 
     echo 'logged in';
+    $_SESSION['loggedin'] = true;
     header("Location: menu.php");
 }
 else{
