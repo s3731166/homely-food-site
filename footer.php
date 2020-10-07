@@ -12,6 +12,18 @@
             
             <img src="http://localhost/homely-food-site/img/email_footer1.png" alt="" style="height: 30px; width: 30px;">&nbsp;&nbsp;&nbsp;&nbsp;admin@homelyfood.com.au
       </div>  
+      <div class="column" >
+      <ul>
+            <li><a href="http://localhost/homely-food-site/index.php">Home</a></li>
+            <li><a href="http://localhost/homely-food-site/pages/about.php"> About Us</a></li>
+            <li><a href="http://localhost/homely-food-site/pages/contact.php">Contact Us</a></li>
+            <li><a href="http://localhost/homely-food-site/pages/how-it-works.php">How We Work</a></li>
+            <li><a href="http://localhost/homely-food-site/pages/menu.php">Menu</a></li>
+            <li><a href="http://localhost/homely-food-site/pages/register.php">Register</a></li>
+            <li><a href="http://localhost/homely-food-site/pages/login.php">Log In</a></li>
+            <li><a href="http://localhost/homely-food-site/pages/cart.php">Cart</a></li>
+        </ul>
+      </div>  
     </div>
 </footer>
 

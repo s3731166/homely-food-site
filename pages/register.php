@@ -24,32 +24,12 @@ else{
     echo "Registration Successful";
     header("Location: login.php");
 }
-
+include '../nav-header.php';
 ?>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../style/style.css">
-    <script src="../js/script.js"></script>
-
-    <title>Homely Food</title>
-</head>
-
-<body>
     <div class="bg">
 
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="about.html"> About Us</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="how-it-works.html">How We Work</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="register.html">Register</a></li>
-                <li><a href="login.html">Log In</a></li>
-            </ul>
+    
             <main>
                 <section id="register">
                     <h1>Member Registration</h1>
@@ -95,91 +75,9 @@ else{
 
                 </section>
             </main>
-        </nav>
+        
     </div>
-</body>
 
-</html>
-<input type="radio" name="creditCheck" id="c01" value="1" checked />Sign up as Customer
-<input type="radio" name="creditCheck" id="c02" value="2" />Sign up as Chef
-
-<input type="radio" name="creditCheck" id="c02" value="3" />Sign up as Driver
-
-
-<input type="submit" value="Submit">
-<label>Already have an account? </label>
-<a title="login" href="login.php">Login</a>
-</form>
-
-
-
-
-</div><!-- close content -->
-
-</div> <!-- close container -->
-
-
-
-
-</section>
-</main>
-</nav>
-</div>
-</body>
-
-</html>
-<input type="radio" name="creditCheck" id="c01" value="1" checked />Sign up as Customer
-<input type="radio" name="creditCheck" id="c02" value="2" />Sign up as Chef
-
-<input type="radio" name="creditCheck" id="c02" value="3" />Sign up as Driver
-
-
-<input type="submit" value="Submit" style="color:#3b1406; font-size: 25px; font-weight: bold; background-color: rgb(207, 114, 48);">
-<label style="color:#3d1a03; font-size: 25px; font-weight: bold; text-align: left;">Already have an account? &nbsp;&nbsp;&nbsp;</label>
-<a title="login" href="login.html" style="color:#0e033d; font-size: 25px; font-weight: bold; text-align: left;">Login</a>
-</form>
-
-
-
-
-</div><!-- close content -->
-
-</div> <!-- close container -->
-
-
-
-
-</section>
-</main>
-</nav>
-</div>
-</body>
-
-</html><input type="radio" name="creditCheck" id="c01" value="1" checked />Sign up as Customer
-<input type="radio" name="creditCheck" id="c02" value="2" />Sign up as Chef
-
-<input type="radio" name="creditCheck" id="c02" value="3" />Sign up as Driver
-
-
-<input type="submit" value="Submit">
-<label>Already have an account? </label>
-<a title="login" href="login.html">Login</a>
-</form>
-
-
-
-
-</div><!-- close content -->
-
-</div> <!-- close container -->
-
-
-
-
-</section>
-</main>
-</nav>
-</div>
 <?php
     include '../footer.php';
 ?>
