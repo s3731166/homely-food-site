@@ -364,3 +364,8 @@ textarea {
   background-color: #fff;
   display: inline-block;
 }
+.column{
+  float: left;
+  width: 50%;
+}
+
