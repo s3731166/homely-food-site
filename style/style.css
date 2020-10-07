@@ -181,9 +181,7 @@ form {
 
   
 }
-.container form{
-  display: inline-block;
-}
+
 
 #contact input,
 select,
@@ -364,8 +362,8 @@ textarea {
   background-color: #fff;
   display: inline-block;
 }
-.column{
+/* .column{
   float: left;
   width: 50%;
 }
-
+ */
