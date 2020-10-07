@@ -91,5 +91,6 @@
     </div>
    
 </form>
-</body>
-</html>
+<?php
+    include '../footer.php';
+?>

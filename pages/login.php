@@ -31,5 +31,6 @@
         </section>
         </main>
     </div>
-</body>
-</html>
+    <?php
+    include '../footer.php';
+?>

@@ -180,6 +180,6 @@ else{
 </main>
 </nav>
 </div>
-</body>
-
-</html>
+<?php
+    include '../footer.php';
+?>

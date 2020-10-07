@@ -47,3 +47,6 @@
 
 
 
+    <?php
+    include '../footer.php';
+?>
