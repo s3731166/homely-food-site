@@ -367,3 +367,14 @@ textarea {
   width: 50%;
 }
  */
+ footer .column{
+  text-align: center;
+}
+
+
+ footer .column{
+   display: inline-block;
+ }
+ footer img{
+   height: 90px;
+ }
