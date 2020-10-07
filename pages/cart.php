@@ -19,7 +19,6 @@
                 $_SESSION["cart"][$count] = $item_array;
                 echo '<script>window.location="Cart.php"</script>';
             }else{
-                echo '<script>alert("Product is already Added to Cart")</script>';
                 echo '<script>window.location="Cart.php"</script>';
             }
         }else{
@@ -40,7 +39,6 @@
             foreach ($_SESSION["cart"] as $keys => $value){
                 if ($value["product_id"] == $_GET["id"]){
                     unset($_SESSION["cart"][$keys]);
-                    echo '<script>alert("Product has been Removed...!")</script>';
                     echo '<script>window.location="Cart.php"</script>';
                 }
             }
@@ -60,10 +58,11 @@
             display:inline-block;
             border: 1px solid #eaeaec;
             margin: 5px;
-            padding: 10px;
+            padding: 30px;
             text-align: center;
             background-color: #efefef;
-            width:25%;
+            width:20%;
+            border-radius: 0.7em;
         }
         table, th, tr{
             text-align: center;
@@ -107,7 +106,7 @@
 
 <body>
 
-    <div class="container" style="width: 1000%">
+    <div class="container" style="width: 100%">
         <h2>Shopping Cart</h2>
         <?php
             $query = "SELECT * FROM products ORDER BY id ASC ";
@@ -123,11 +122,11 @@
 
                             <div class="product">
                                 <img src="../img/food-items/<?php echo $row["image"]; ?>" class="img-responsive">
-                                <input type="text" name="quantity" class="form-control" value="1" style="padding: 12px 15px; margin: 8px 0; box-sizing: border-box; border:2px solid black;">
+                                <input type="text" name="quantity" class="form-control" value="1" >
                                 <input type="hidden" name="hidden_name" value="<?php echo $row["name"]; ?>">
                                 <input type="hidden" name="hidden_price" value="<?php echo $row["price"]; ?>">
-                                <input type="date" name="timedate" id="" style="padding: 10px 15px; margin: 8px 0; box-sizing: border-box; border:2px solid black;">
-                                <input type="submit" name="add" style="padding: 10px 15px; margin-top: 5px; background-color: #f5a26b; font-weight: bold;" class="btn btn-success"
+                                <input type="date" name="timedate" id="" >
+                                <input type="submit" name="add" style="margin-top: 5px; background-color: #f5a26b; font-weight: bold;" class="btn btn-success"
                                        value="Add to Cart">
                             </div>
                         </form>
