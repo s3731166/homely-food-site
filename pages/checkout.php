@@ -74,14 +74,13 @@
            ?>>
 
            
-    <div class = "checkoutForm">
-    <p style="color:#3d1a03; font-size: 20px; font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name:</p> <input type="text" name="name" value= "<?php echo $name; ?>" style="width: 50%; padding: 12px 20px; margin: 8px 0; box-sizing: border-box; border:3px solid rgb(95, 38, 6);"> <?php echo $nameErr;?>
-   <p style="color:#3d1a03; font-size: 20px; font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email:</p><input type="email" name="email" value = "<?php echo $email; ?>" style="width: 50%; padding: 12px 20px; margin: 8px 0; box-sizing: border-box; border:3px solid rgb(95, 38, 6);" ><?php echo $emailErr;?>
-   <p style="color:#3d1a03; font-size: 20px; font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Address</p><input type="text area" name="address" value = "<?php echo $address; ?>" style="width: 50%; padding: 12px 20px; margin: 8px 0; box-sizing: border-box; border:3px solid rgb(95, 38, 6);" ><?php echo $addressErr;?>
-   <p style="color:#3d1a03; font-size: 20px; font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mobile Phone:</p><input type="text" name="phone" value = "<?php echo $phone; ?>" style="width: 50%; padding: 12px 20px; margin: 8px 0; box-sizing: border-box; border:3px solid rgb(95, 38, 6);" ><?php echo $phoneErr;?>
-   <p style="color:#3d1a03; font-size: 20px; font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Credit Card</p><input type="text" name="creditCard" value = "<?php echo $creditCard; ?>" onchange="visaCheck(creditCard)" style="width: 50%; padding: 12px 20px; margin: 8px 0; box-sizing: border-box; border:3px solid rgb(95, 38, 6);">
-    <?php echo $cardErr;?><img id="visaImage" width=20px; src="media/blank-card.png.png">
-   <p style="color:#3d1a03; font-size: 20px; font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Expiry Date</p><input type="date" name="expiry" value="<?php echo $expiry; ?>" style="width: 50%; padding: 12px 20px; margin: 8px 0; box-sizing: border-box; border:3px solid rgb(95, 38, 6);" ><br/>
+    <div class = "checkoutForm"  style="width: 100%">
+    <p>Name:</p> <input type="text" name="name" value= "<?php echo $name; ?>" > <?php echo $nameErr;?>
+   <p >Email:</p><input type="email" name="email" value = "<?php echo $email; ?>"  ><?php echo $emailErr;?>
+   <p >Address</p><input type="text area" name="address" value = "<?php echo $address; ?>" ><?php echo $addressErr;?>
+   <p>Mobile Phone:</p><input type="text" name="phone" value = "<?php echo $phone; ?>"><?php echo $phoneErr;?>
+   <p >Credit Card</p><input type="text" name="creditCard" value = "<?php echo $creditCard; ?>" onchange="visaCheck(creditCard)" >
+   <p >Expiry Date</p><input type="date" name="expiry" value="<?php echo $expiry; ?>"><br/>
        
    <br>
    <br>
