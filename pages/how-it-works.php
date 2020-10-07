@@ -26,7 +26,7 @@
             </div>
             <div class="col4">
                 <h2>Feedback</h2>
-                <img src="../img/feedback.gif" alt="">
+                <img src="../img/feedback.png" alt="">
                 <div class="col-text">
                     We care a lot about our customers' feedback and take concerns seriously. We allow appointment of one of our chefs as a favourite
                     allowing direct communication. 
