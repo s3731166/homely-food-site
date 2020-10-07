@@ -20,5 +20,7 @@
             <li><a href="http://localhost/homely-food-site/pages/menu.php">Menu</a></li>
             <li><a href="http://localhost/homely-food-site/pages/register.php">Register</a></li>
             <li><a href="http://localhost/homely-food-site/pages/login.php">Log In</a></li>
+            <li><a href="http://localhost/homely-food-site/pages/cart.php">Cart</a></li>
+
         </ul>
     </nav>
